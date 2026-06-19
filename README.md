@@ -25,6 +25,14 @@ Extracted and generalized from Talos, released under MIT:
 - [async-api-client](https://github.com/Musyg/async-api-client) - resilient async REST client: rate limiting, retries, pagination.
 - [multi-agent-orchestrator](https://github.com/Musyg/multi-agent-orchestrator) - capability-based task routing template.
 
+## Smart-contract security
+
+Competitive smart-contract auditing on Code4rena and Cantina, plus a reproducible demonstration review.
+
+- Code4rena - [@GiMu84](https://code4rena.com/@GiMu84)
+- Cantina - [@GilMu](https://cantina.xyz/u/GilMu)
+- [stvault-audit](https://github.com/Musyg/stvault-audit) - a deliberately vulnerable lending vault reviewed end to end, every finding proven with a passing Foundry PoC, plus a full PDF report.
+
 ## How I work
 
 - Execution-verified generation (Best-of-N with compile and test oracles) over single-shot prompting.
@@ -42,4 +50,3 @@ observability · systemd · CI with ruff, pytest, and pre-commit.
 ## Also
 
 - [inaricom.com](https://inaricom.com) - designed and built the company site.
-- Background in security and applied cryptography research.
