@@ -7,7 +7,7 @@ of machines.
 
 Fribourg, Switzerland.
 
-## Talos - my agentic platform
+## Talos - agentic platform
 
 A distributed "agentic operating system": around 55 agents and 85+ services across a
 four-node fleet, a four-part memory, a real-time voice and chat assistant, and
