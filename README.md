@@ -47,6 +47,8 @@ hot-swap) · multi-agent orchestration · graph-RAG memory · vector search · M
 bus · real-time voice (streaming STT/TTS, speaker ID) · Prometheus / VictoriaMetrics
 observability · systemd · CI with ruff, pytest, and pre-commit.
 
+Web3 security: Solidity · Foundry · fuzzing (Echidna, Medusa) · symbolic execution & formal verification (Halmos, Certora) · static analysis (Slither, Aderyn, Semgrep).
+
 ## Also
 
 - [inaricom.com](https://inaricom.com) - designed and built the company site.
