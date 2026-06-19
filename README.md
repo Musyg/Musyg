@@ -5,7 +5,7 @@ end - commerce, sales, trading, and creative work - and that improve their own c
 and capabilities over time. Mostly local models, orchestrated across a small fleet
 of machines.
 
-Geneva, Switzerland.
+Fribourg, Switzerland.
 
 ## Talos - my agentic platform
 
