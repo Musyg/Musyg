@@ -1,4 +1,4 @@
-# Gilles - Applied AI & Agentic Systems Engineer
+# Applied AI & Agentic Systems Engineer
 
 I design and build autonomous multi-agent systems that run real operations end to
 end - commerce, sales, trading, and creative work - and that improve their own code
