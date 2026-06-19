@@ -11,9 +11,9 @@ Fribourg, Switzerland.
 
 A distributed "agentic operating system": around 55 agents and 85+ services across a
 four-node fleet, a four-part memory, a real-time voice and chat assistant, and
-self-improving audit / build / architect pipelines. Commerce, autonomous sales (with
-self-hosted eIDAS-grade e-signature), trading research, content generation, and
-app/site builders run with little to no human input.
+self-improving audit / build / architect pipelines. Commerce, autonomous sales
+(negotiation, closing and e-signature in progress), trading research, content
+generation, and app/site builders run with little to no human input.
 
 → [github.com/Musyg/talos](https://github.com/Musyg/talos)
 
