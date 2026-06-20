@@ -40,8 +40,12 @@ Every finding ships with a reproducible proof of concept. If it isn't reproducib
 
 Resilient, async-first Python services and the infrastructure primitives that keep them up.
 
-- [async-api-client](https://github.com/Musyg/async-api-client). Resilient async REST client: rate limiting, retries, pagination.
+- [production-agent-template](https://github.com/Musyg/production-agent-template). Production FastAPI service template: lifespan, health, circuit breaker, self-healing, metrics, scaffolding.
 - [agent-resilience](https://github.com/Musyg/agent-resilience). Circuit breaker, Redis-backed DLQ, offline MQTT buffer.
+- [async-api-client](https://github.com/Musyg/async-api-client). Resilient async REST client: rate limiting, retries, pagination.
+- [agent-self-healing](https://github.com/Musyg/agent-self-healing). Dependency health monitor with online/degraded/error states and auto-recovery.
+- [agent-metrics](https://github.com/Musyg/agent-metrics). Dependency-free counters, gauges, histograms with Prometheus text exposition.
+- [infra-reference](https://github.com/Musyg/infra-reference). Sanitised platform-engineering reference: multi-arch Ansible, hardened systemd, distroless builds, mesh and observability.
 
 _Engagement: backend APIs, integrations, observability, CI._
 
