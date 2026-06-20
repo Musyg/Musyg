@@ -26,6 +26,7 @@ Every finding ships with a reproducible proof of concept. If it isn't reproducib
 - [stvault-audit](https://github.com/Musyg/stvault-audit). Lending vault: oracle staleness, cross-function reentrancy, fee rounding.
 - [vyper-access-control-audit](https://github.com/Musyg/vyper-access-control-audit). Vyper vault: unguarded ownership transfer (access control).
 - [circom-underconstrained-audit](https://github.com/Musyg/circom-underconstrained-audit). ZK: under-constrained Circom circuit, Groth16 soundness break.
+- [formal-verification-overflow-audit](https://github.com/Musyg/formal-verification-overflow-audit). Formal verification: averaging overflow refuted then proved with Halmos.
 
 **Competition profiles**
 - Cantina: [@GilMu](https://cantina.xyz/u/GilMu)
