@@ -24,6 +24,7 @@ Every finding ships with a reproducible proof of concept. If it isn't reproducib
 - [eip712-signature-replay-audit](https://github.com/Musyg/eip712-signature-replay-audit). ECDSA signature malleability double-spend.
 - [reward-accounting-drift-audit](https://github.com/Musyg/reward-accounting-drift-audit). MasterChef-style reward accounting drift.
 - [stvault-audit](https://github.com/Musyg/stvault-audit). Lending vault: oracle staleness, cross-function reentrancy, fee rounding.
+- [vyper-access-control-audit](https://github.com/Musyg/vyper-access-control-audit). Vyper vault: unguarded ownership transfer (access control).
 
 **Competition profiles**
 - Cantina: [@GilMu](https://cantina.xyz/u/GilMu)
