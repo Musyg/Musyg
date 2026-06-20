@@ -19,8 +19,11 @@ Every finding ships with a reproducible proof of concept. If it isn't reproducib
 - ZK & applied cryptography: circuits, verifiers, proof systems
 
 **Proof of work**
-- [stvault-audit](https://github.com/Musyg/stvault-audit). A deliberately vulnerable lending vault reviewed end to end, every finding proven with a passing Foundry PoC, plus a full PDF report.
-- _More reviews coming, one repo per vulnerability class (oracle manipulation, cross-id reentrancy, ERC-4626 donation, governance executors)._
+- [security-reviews](https://github.com/Musyg/security-reviews), a catalogue of reproducible reviews, one repo per vulnerability class. Each ships a vulnerable target, an exploit PoC, a remediated branch, and a report, all green under CI.
+- [erc4626-inflation-audit](https://github.com/Musyg/erc4626-inflation-audit). ERC-4626 first-deposit share inflation.
+- [eip712-signature-replay-audit](https://github.com/Musyg/eip712-signature-replay-audit). ECDSA signature malleability double-spend.
+- [reward-accounting-drift-audit](https://github.com/Musyg/reward-accounting-drift-audit). MasterChef-style reward accounting drift.
+- [stvault-audit](https://github.com/Musyg/stvault-audit). Lending vault: oracle staleness, cross-function reentrancy, fee rounding.
 
 **Competition profiles**
 - Cantina: [@GilMu](https://cantina.xyz/u/GilMu)
