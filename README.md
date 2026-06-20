@@ -1,6 +1,6 @@
-# Gilles
+# Security researcher, developer, and AI systems engineer. 
 
-Security researcher, developer, and AI systems engineer. Based in Switzerland.
+Based in Switzerland.
 I work at Inaricom, where I cover security and software engineering.
 
 Three distinct practices, each standing on its own below.
