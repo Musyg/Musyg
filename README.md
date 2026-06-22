@@ -1,7 +1,7 @@
 # Security researcher · Developer · AI systems engineer
 
 Based in Switzerland.
-I work at Inaricom, where I cover security and software engineering.
+I work across security and software engineering.
 
 Three distinct practices, each standing on its own below.
 
@@ -9,7 +9,7 @@ Three distinct practices, each standing on its own below.
 
 ## 🔒 Security
 
-**Security Researcher & Auditor @ Inaricom**
+**Security Researcher & Auditor**
 
 I find and prove vulnerabilities in smart contracts.
 Every finding ships with a reproducible proof of concept. If it isn't reproducible, it isn't a finding.
@@ -55,7 +55,7 @@ _Engagement: backend APIs, integrations, observability, CI._
 
 **Applied AI & Agentic Systems Engineer**
 
-I design and build autonomous multi-agent systems that run real operations end to end and improve their own code over time. Mostly local models, orchestrated across a small fleet of machines.
+I design and build autonomous multi-agent systems with self-improving build and audit pipelines. Mostly local models, orchestrated across a small fleet of machines.
 
 - [talos](https://github.com/Musyg/talos). Distributed agentic platform: ~55 agents and 85+ services across a four-node fleet, four-part memory, real-time voice and chat assistant, self-improving build pipelines.
 - [multi-agent-orchestrator](https://github.com/Musyg/multi-agent-orchestrator). Capability-based task routing template.
@@ -72,4 +72,4 @@ I design and build autonomous multi-agent systems that run real operations end t
 
 ## Also
 
-- [inaricom.com](https://inaricom.com): designed and built the company site.
+- [inaricom.com](https://inaricom.com): built the website and backend for them.
