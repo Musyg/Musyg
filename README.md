@@ -1,7 +1,6 @@
 # Security researcher · Developer · AI systems engineer
 
 Based in Switzerland.
-I work as a security auditor and developer at Inaricom.
 
 Three distinct practices, each standing on its own below.
 
