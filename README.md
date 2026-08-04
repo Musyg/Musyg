@@ -6,18 +6,21 @@ Three distinct practices, each standing on its own below.
 
 ---
 
-## 🔒 Security
+## 🔒 Security Research
 
-**Security Researcher & Auditor**
+**Security Researcher**
 
-I find and prove vulnerabilities in smart contracts.
-Every finding ships with a reproducible proof of concept. If it isn't reproducible, it isn't a finding.
+I investigate and demonstrate security failures across web applications, smart contracts, and AI systems.
+Every confirmed finding is supported by reproducible evidence and clearly defined impact.
 
 **Focus**
+- Web and application security: web applications, APIs, access control, business logic, and integrations
 - Smart contracts: Solidity / Vyper, Foundry fork PoCs, formal verification
 - ZK & applied cryptography: circuits, verifiers, proof systems
+- AI and agent security: indirect prompt injection, tool misuse, agentic attack paths, and adversarial evaluation
 
 **Proof of work**
+- Gray Swan Arena: [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5), indirect prompt injection research and adversarial AI evaluation.
 - [security-reviews](https://github.com/Musyg/security-reviews), a catalogue of reproducible reviews, one repo per vulnerability class. Each ships a vulnerable target, an exploit PoC, a remediated branch, and a report, all green under CI.
 - [erc4626-inflation-audit](https://github.com/Musyg/erc4626-inflation-audit). ERC-4626 first-deposit share inflation.
 - [eip712-signature-replay-audit](https://github.com/Musyg/eip712-signature-replay-audit). ECDSA signature malleability double-spend.
