@@ -74,6 +74,8 @@ I design and build autonomous multi-agent systems with self-improving build and 
 - Metrics-driven; every change is measured.
 - Execution-verified over single-shot.
 
-## Also
+## Web Development
 
-- [inaricom.com](https://inaricom.com): built the website and backend for them.
+- [inaricom.com](https://inaricom.com): website and backend development.
+- [mikasshop.com](https://mikasshop.com): website development.
+- [pedi-sense.com](https://pedi-sense.com): website development.
