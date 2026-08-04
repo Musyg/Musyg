@@ -74,6 +74,8 @@ Je conçois et développe des systèmes multi-agents autonomes ainsi que des pip
 - Pilotage par les métriques : chaque changement est mesuré.
 - Vérification par l’exécution, jamais sur la base d’un résultat isolé.
 
-## Autre réalisation
+## Développement web
 
-- [inaricom.com](https://inaricom.com) : j’ai développé leur site web et leur backend.
+- [inaricom.com](https://inaricom.com) : développement du site web et du backend.
+- [mikasshop.com](https://mikasshop.com) : développement du site web.
+- [pedi-sense.com](https://pedi-sense.com) : développement du site web.
