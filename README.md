@@ -8,7 +8,7 @@ Three distinct practices, each standing on its own below.
 
 ---
 
-## 🔒 Security Research
+## Security Research
 
 **Security Researcher**
 
@@ -38,7 +38,7 @@ Every confirmed finding is supported by reproducible evidence and clearly define
 
 ---
 
-## 💻 Development
+## Backend & Infrastructure Engineering
 
 **Backend & infrastructure engineer**
 
@@ -55,7 +55,7 @@ _Engagement: backend APIs, integrations, observability, CI._
 
 ---
 
-## 🤖 AI & Agentic Systems
+## Agentic AI Systems
 
 **Applied AI & Agentic Systems Engineer**
 
