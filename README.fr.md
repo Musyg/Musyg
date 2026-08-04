@@ -8,7 +8,7 @@ Trois pratiques professionnelles distinctes, présentées séparément ci-dessou
 
 ---
 
-## 🔒 Recherche en sécurité
+## Recherche en sécurité
 
 **Chercheur en sécurité**
 
@@ -38,7 +38,7 @@ Chaque vulnérabilité confirmée repose sur des preuves reproductibles et un im
 
 ---
 
-## 💻 Développement
+## Ingénierie backend et infrastructure
 
 **Ingénieur backend et infrastructure**
 
@@ -55,7 +55,7 @@ _Missions : API backend, intégrations, observabilité et CI._
 
 ---
 
-## 🤖 IA et systèmes agentiques
+## IA et systèmes agentiques
 
 **Ingénieur en IA appliquée et systèmes agentiques**
 
