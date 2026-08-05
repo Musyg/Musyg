@@ -8,6 +8,20 @@ Trois pratiques professionnelles distinctes, présentées séparément ci-dessou
 
 ---
 
+## Projet full-stack phare
+
+### Celo Credentials
+
+[celo-credentials-dapp](https://github.com/Musyg/celo-credentials-dapp) est une application de référence complète permettant d’émettre sur Celo des attestations de formation non transférables sans frais pour leur bénéficiaire. Les établissements signent des autorisations EIP-712 hors chaîne, un service de relais prend en charge les frais et les attestations restent vérifiables et révocables publiquement sur la blockchain.
+
+- **Sur la blockchain :** contrat vérifié sur Celo Sepolia, avec transactions et attestations d’exemple publiques
+- **Application :** Solidity, Foundry, Express, PostgreSQL, Next.js, wagmi, viem et TypeScript
+- **Conception de la sécurité :** émetteurs autorisés, protection contre le rejeu et l’expiration, non-transférabilité, révocation, fuzzing et 8 tests Foundry réussis sur 8
+
+_Implémentation de référence publique sur testnet ; elle n’a pas fait l’objet d’un audit indépendant pour un usage en production._
+
+---
+
 ## Recherche en sécurité
 
 **Chercheur en sécurité**
@@ -22,7 +36,6 @@ Chaque vulnérabilité confirmée repose sur des preuves reproductibles et un im
 - Sécurité de l’IA et des agents : injection indirecte de prompts, usage abusif d’outils, chaînes d’attaque sur systèmes agentiques et évaluation adversariale
 
 **Réalisations vérifiables**
-- Gray Swan Arena : [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5), recherche sur l’injection indirecte de prompts et évaluation adversariale de systèmes d’IA.
 - [security-reviews](https://github.com/Musyg/security-reviews), un catalogue d’audits reproductibles avec un dépôt par classe de vulnérabilité. Chaque dépôt comprend une cible vulnérable, une preuve de concept d’exploitation, une branche corrigée et un rapport, le tout validé par CI.
 - [erc4626-inflation-audit](https://github.com/Musyg/erc4626-inflation-audit). Inflation des parts ERC-4626 lors du premier dépôt.
 - [eip712-signature-replay-audit](https://github.com/Musyg/eip712-signature-replay-audit). Malléabilité de signature ECDSA permettant une double dépense.
@@ -32,7 +45,8 @@ Chaque vulnérabilité confirmée repose sur des preuves reproductibles et un im
 - [circom-underconstrained-audit](https://github.com/Musyg/circom-underconstrained-audit). ZK : circuit Circom sous-contraint rompant la propriété de solidité de Groth16.
 - [formal-verification-overflow-audit](https://github.com/Musyg/formal-verification-overflow-audit). Vérification formelle : débordement dans le calcul d’une moyenne, hypothèse d’abord réfutée puis prouvée avec Halmos.
 
-**Profils de compétitions d’audit**
+**Profils professionnels en sécurité**
+- Gray Swan Arena : [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) — recherche sur l’injection indirecte de prompts et évaluation adversariale de systèmes d’IA
 - Cantina : [@GilMu](https://cantina.xyz/u/GilMu)
 - Code4rena : [@GiMu84](https://code4rena.com/@GiMu84)
 
