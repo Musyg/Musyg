@@ -8,6 +8,20 @@ Three distinct practices, each standing on its own below.
 
 ---
 
+## Selected Full-Stack System
+
+### Celo Credentials
+
+[celo-credentials-dapp](https://github.com/Musyg/celo-credentials-dapp) is a full-stack reference application for gasless, non-transferable education credentials on Celo. Institutions sign EIP-712 vouchers off-chain, a relayer pays the gas, and credentials remain publicly verifiable and revocable on-chain.
+
+- **On-chain:** verified Celo Sepolia contract with public sample transactions and credentials
+- **Application:** Solidity, Foundry, Express, PostgreSQL, Next.js, wagmi, viem, and TypeScript
+- **Security design:** authorized issuers, replay and expiry protection, non-transferability, revocation, fuzz testing, and 8/8 Foundry tests
+
+_Public testnet reference implementation; not audited for production use._
+
+---
+
 ## Security Research
 
 **Security Researcher**
@@ -22,7 +36,6 @@ Every confirmed finding is supported by reproducible evidence and clearly define
 - AI and agent security: indirect prompt injection, tool misuse, agentic attack paths, and adversarial evaluation
 
 **Proof of work**
-- Gray Swan Arena: [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5), indirect prompt injection research and adversarial AI evaluation.
 - [security-reviews](https://github.com/Musyg/security-reviews), a catalogue of reproducible reviews, one repo per vulnerability class. Each ships a vulnerable target, an exploit PoC, a remediated branch, and a report, all green under CI.
 - [erc4626-inflation-audit](https://github.com/Musyg/erc4626-inflation-audit). ERC-4626 first-deposit share inflation.
 - [eip712-signature-replay-audit](https://github.com/Musyg/eip712-signature-replay-audit). ECDSA signature malleability double-spend.
@@ -32,7 +45,8 @@ Every confirmed finding is supported by reproducible evidence and clearly define
 - [circom-underconstrained-audit](https://github.com/Musyg/circom-underconstrained-audit). ZK: under-constrained Circom circuit, Groth16 soundness break.
 - [formal-verification-overflow-audit](https://github.com/Musyg/formal-verification-overflow-audit). Formal verification: averaging overflow refuted then proved with Halmos.
 
-**Competition profiles**
+**Professional security profiles**
+- Gray Swan Arena: [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) — indirect prompt injection research and adversarial AI evaluation
 - Cantina: [@GilMu](https://cantina.xyz/u/GilMu)
 - Code4rena: [@GiMu84](https://code4rena.com/@GiMu84)
 
