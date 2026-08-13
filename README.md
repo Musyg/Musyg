@@ -1,6 +1,6 @@
 **English** · [Français](./README.fr.md)
 
-# Security researcher · Developer · AI systems engineer
+# Independent Security Researcher · AI Engineer · Full-Stack Developer
 
 Based in Switzerland.
 
