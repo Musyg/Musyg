@@ -1,6 +1,6 @@
 [English](./README.md) · **Français**
 
-# Chercheur en sécurité · Développeur · Ingénieur en systèmes d’IA
+# Chercheur indépendant en sécurité · Ingénieur IA · Développeur full-stack
 
 Basé en Suisse.
 
