@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
-  <title id="title">Gilles Musy — three distinct professional practices</title>
-  <desc id="desc">Independent security research, agentic AI engineering, and full-stack development.</desc>
+  <title id="title">Gilles Musy: three professional practices</title>
+  <desc id="desc">Security research, agentic AI engineering, and full-stack development.</desc>
   <rect width="960" height="480" rx="18" fill="#F5F6F3"/>
   <path d="M0 64H960M40 176H920M40 274H920M40 372H920" stroke="#D9DEDC"/>
   <path d="M40 30H82" stroke="#1C9FFF" stroke-width="4"/>
   <text x="98" y="40" fill="#111416" font-family="Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="700" letter-spacing="3">GILLES MUSY</text>
   <text x="920" y="40" text-anchor="end" fill="#5E676B" font-family="'Courier New', monospace" font-size="22" letter-spacing="1.5">SWITZERLAND · MUSYG</text>
-  <text x="40" y="104" fill="#5E676B" font-family="'Courier New', monospace" font-size="24" letter-spacing="2">THREE DISTINCT PRACTICES</text>
-  <text x="40" y="148" fill="#111416" font-family="Arial, 'Segoe UI', sans-serif" font-size="32" font-weight="600">Reliable systems. Independent research.</text>
+  <text x="40" y="104" fill="#5E676B" font-family="'Courier New', monospace" font-size="24" letter-spacing="2">SOFTWARE · AI · SECURITY</text>
+  <text x="40" y="148" fill="#111416" font-family="Arial, 'Segoe UI', sans-serif" font-size="32" font-weight="600">Repositories, websites, and research profiles.</text>
   <g font-family="'Courier New', monospace">
     <text x="40" y="232" fill="#0067B8" font-size="26" font-weight="700">01</text>
-    <text x="110" y="232" fill="#111416" font-size="34" font-weight="700" letter-spacing="1.2">INDEPENDENT SECURITY RESEARCH</text>
+    <text x="110" y="232" fill="#111416" font-size="34" font-weight="700" letter-spacing="1.2">SECURITY RESEARCH</text>
     <path d="M40 252H82" stroke="#1C9FFF" stroke-width="3"/>
     <text x="40" y="330" fill="#0067B8" font-size="26" font-weight="700">02</text>
     <text x="110" y="330" fill="#111416" font-size="34" font-weight="700" letter-spacing="1.2">AGENTIC AI ENGINEERING</text>

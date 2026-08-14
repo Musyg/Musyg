@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="600" viewBox="0 0 720 600" role="img" aria-labelledby="title desc">
-  <title id="title">Gilles Musy — trois pratiques professionnelles distinctes</title>
-  <desc id="desc">Recherche indépendante en sécurité, ingénierie IA agentique et développement full-stack.</desc>
+  <title id="title">Gilles Musy : trois pratiques professionnelles</title>
+  <desc id="desc">Recherche en sécurité, ingénierie IA agentique et développement full-stack.</desc>
   <rect width="720" height="600" rx="18" fill="#0F1216"/>
   <path d="M0 72H720M40 252H680M40 364H680M40 476H680" stroke="#25303A"/>
   <path d="M40 32H92" stroke="#1C9FFF" stroke-width="4"/>
   <text x="108" y="46" fill="#F1F5F7" font-family="Arial, 'Segoe UI', sans-serif" font-size="28" font-weight="700" letter-spacing="3">GILLES MUSY</text>
   <text x="680" y="46" text-anchor="end" fill="#B7C2C9" font-family="'Courier New', monospace" font-size="28" letter-spacing="1.5">SUISSE · MUSYG</text>
-  <text x="40" y="120" fill="#B7C2C9" font-family="'Courier New', monospace" font-size="28" letter-spacing="2">TROIS PRATIQUES DISTINCTES</text>
-  <text x="40" y="162" fill="#F1F5F7" font-family="Arial, 'Segoe UI', sans-serif" font-size="36" font-weight="600">Des systèmes fiables.</text>
-  <text x="40" y="206" fill="#F1F5F7" font-family="Arial, 'Segoe UI', sans-serif" font-size="36" font-weight="600">Une recherche indépendante.</text>
+  <text x="40" y="120" fill="#B7C2C9" font-family="'Courier New', monospace" font-size="28" letter-spacing="2">LOGICIEL · IA · SÉCURITÉ</text>
+  <text x="40" y="162" fill="#F1F5F7" font-family="Arial, 'Segoe UI', sans-serif" font-size="36" font-weight="600">Dépôts et sites web.</text>
+  <text x="40" y="206" fill="#F1F5F7" font-family="Arial, 'Segoe UI', sans-serif" font-size="36" font-weight="600">Profils de recherche.</text>
   <g font-family="'Courier New', monospace">
     <text x="40" y="310" fill="#1C9FFF" font-size="26" font-weight="700">01</text>
-    <text x="100" y="294" fill="#F1F5F7" font-size="32" font-weight="700" letter-spacing="1.2">RECHERCHE INDÉPENDANTE</text>
+    <text x="100" y="294" fill="#F1F5F7" font-size="32" font-weight="700" letter-spacing="1.2">RECHERCHE</text>
     <text x="100" y="334" fill="#F1F5F7" font-size="32" font-weight="700" letter-spacing="1.2">EN SÉCURITÉ</text>
     <path d="M40 346H82" stroke="#1C9FFF" stroke-width="3"/>
     <text x="40" y="422" fill="#008AFF" font-size="26" font-weight="700">02</text>

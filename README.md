@@ -7,14 +7,12 @@
   <source media="(prefers-color-scheme: light) and (max-width: 1230px)" srcset="./assets/profile-header-tablet-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg">
-  <img alt="Gilles Musy — Independent Security Researcher, AI Engineer, and Full-Stack Developer" src="./assets/profile-header-light.svg">
+  <img alt="Gilles Musy: Security Researcher, AI Engineer, and Full-Stack Developer" src="./assets/profile-header-light.svg">
 </picture>
 
-# Independent Security Researcher · AI Engineer · Full-Stack Developer
+# Security Researcher · AI Engineer · Full-Stack Developer
 
 Based in Switzerland.
-
-Three distinct practices, each standing on its own below.
 
 ---
 
@@ -34,10 +32,7 @@ _Public testnet reference implementation; not audited for production use._
 
 ## Security Research
 
-**Security Researcher**
-
-I investigate and demonstrate security failures across web applications, smart contracts, and AI systems.
-Every confirmed finding is supported by reproducible evidence and clearly defined impact.
+Security research on web applications, smart contracts, and AI systems. Published findings include reproducible evidence and a documented impact.
 
 **Focus**
 - Web and application security: web applications, APIs, access control, business logic, and integrations
@@ -56,8 +51,8 @@ Every confirmed finding is supported by reproducible evidence and clearly define
 - [formal-verification-overflow-audit](https://github.com/Musyg/formal-verification-overflow-audit). Formal verification: averaging overflow refuted then proved with Halmos.
 
 **Professional security profiles**
-- Gray Swan Arena: [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) — indirect prompt injection research and adversarial AI evaluation
-- HackerOne: [@gilmu](https://hackerone.com/gilmu) — public acknowledgement from the Treasury Board of Canada Secretariat
+- Gray Swan Arena: [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) (indirect prompt injection research and adversarial AI evaluation)
+- HackerOne: [@gilmu](https://hackerone.com/gilmu) (public acknowledgement from the Treasury Board of Canada Secretariat)
 - Cantina: [@GilMu](https://cantina.xyz/u/GilMu)
 - Code4rena: [@GiMu84](https://code4rena.com/@GiMu84)
 
@@ -65,11 +60,9 @@ Every confirmed finding is supported by reproducible evidence and clearly define
 
 ## Backend & Infrastructure Engineering
 
-**Backend & infrastructure engineer**
+Python services and infrastructure work focused on asynchronous execution, fault handling, and observability.
 
-Resilient, async-first Python services and the infrastructure primitives that keep them up.
-
-- [production-agent-template](https://github.com/Musyg/production-agent-template). Production FastAPI service template: lifespan, health, circuit breaker, self-healing, metrics, scaffolding.
+- [production-agent-template](https://github.com/Musyg/production-agent-template). FastAPI agent service template: async lifespan, health and dashboard endpoints, circuit breaker registry, application-defined recovery hooks, Prometheus metrics, optional background loop, and scaffolding.
 - [agent-resilience](https://github.com/Musyg/agent-resilience). Circuit breaker, Redis-backed DLQ, offline MQTT buffer.
 - [async-api-client](https://github.com/Musyg/async-api-client). Resilient async REST client: rate limiting, retries, pagination.
 - [agent-self-healing](https://github.com/Musyg/agent-self-healing). Dependency health monitor with online/degraded/error states and auto-recovery.
@@ -82,11 +75,9 @@ _Engagement: backend APIs, integrations, observability, CI._
 
 ## Agentic AI Systems
 
-**Applied AI & Agentic Systems Engineer**
+Multi-agent systems, local-model orchestration, and automated build and review pipelines running across a small fleet of machines.
 
-I design and build autonomous multi-agent systems with self-improving build and audit pipelines. Mostly local models, orchestrated across a small fleet of machines.
-
-- [talos](https://github.com/Musyg/talos). Distributed agentic platform: ~55 agents and 85+ services across a four-node fleet, four-part memory, real-time voice and chat assistant, self-improving build pipelines.
+- [talos](https://github.com/Musyg/talos). Distributed agentic platform: ~55 agents and 85+ services across a four-node fleet, four-part memory, real-time voice and chat assistant, and automated build pipelines.
 - [multi-agent-orchestrator](https://github.com/Musyg/multi-agent-orchestrator). Capability-based task routing template.
 
 **Stack**: Python (async-first) · local LLM ops (llama.cpp / GGUF, model routing, VRAM-aware hot-swap) · multi-agent orchestration · graph-RAG memory · vector search · MQTT event bus · real-time voice · Prometheus / VictoriaMetrics · systemd · CI (ruff, pytest, pre-commit).
@@ -95,9 +86,7 @@ I design and build autonomous multi-agent systems with self-improving build and 
 
 ## How I work
 
-- Evidence over claims. If it isn't reproducible, it isn't done.
-- Metrics-driven; every change is measured.
-- Execution-verified over single-shot.
+I document claims with reproducible examples, measure changes when useful, and verify behavior by running the system.
 
 ## Web Development
 
