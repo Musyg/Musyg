@@ -90,6 +90,6 @@ Je privilégie les exemples reproductibles, les mesures pertinentes et les tests
 
 ## Développement web
 
-- [Étude de cas Inaricom](./case-studies/fr/inaricom.md) : développement du site et du backend ([voir le site](https://inaricom.com)).
+- [Étude de cas Inaricom](./case-studies/fr/inaricom.md) : développement du site et du backend, avec une refonte en cours ([URL du projet](https://inaricom.com)).
 - [Étude de cas Mika's Shop](./case-studies/fr/mikasshop.md) : conception et réalisation complète de la boutique Shopify ([voir la boutique](https://mikasshop.com)).
 - [Étude de cas Pedi-Sense](./case-studies/fr/pedi-sense.md) : conception et réalisation complète de la boutique Shopify ([voir la boutique](https://pedi-sense.com)).
