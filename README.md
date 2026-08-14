@@ -92,4 +92,4 @@ I document claims with reproducible examples, measure changes when useful, and v
 
 - [inaricom.com](https://inaricom.com): website and backend development.
 - [Mika's Shop case study](./case-studies/en/mikasshop.md): end-to-end Shopify store design and implementation ([live store](https://mikasshop.com)).
-- [pedi-sense.com](https://pedi-sense.com): website development.
+- [Pedi-Sense case study](./case-studies/en/pedi-sense.md): end-to-end Shopify store design and implementation ([live store](https://pedi-sense.com)).
