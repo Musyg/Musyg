@@ -91,5 +91,5 @@ I document claims with reproducible examples, measure changes when useful, and v
 ## Web Development
 
 - [inaricom.com](https://inaricom.com): website and backend development.
-- [mikasshop.com](https://mikasshop.com): website development.
+- [Mika's Shop case study](./case-studies/en/mikasshop.md): end-to-end Shopify store design and implementation ([live store](https://mikasshop.com)).
 - [pedi-sense.com](https://pedi-sense.com): website development.
