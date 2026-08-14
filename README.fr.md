@@ -1,5 +1,13 @@
 [English](./README.md) · **Français**
 
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 820px)" srcset="./assets/profile-header-fr-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 820px)" srcset="./assets/profile-header-fr-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-fr-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-fr-light.svg">
+  <img alt="Gilles Musy — Chercheur indépendant en sécurité, ingénieur IA et développeur full-stack" src="./assets/profile-header-fr-light.svg">
+</picture>
+
 # Chercheur indépendant en sécurité · Ingénieur IA · Développeur full-stack
 
 Basé en Suisse.
