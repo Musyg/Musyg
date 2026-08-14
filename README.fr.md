@@ -57,6 +57,7 @@ Chaque vulnérabilité confirmée repose sur des preuves reproductibles et un im
 
 **Profils professionnels en sécurité**
 - Gray Swan Arena : [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) — recherche sur l’injection indirecte de prompts et évaluation adversariale de systèmes d’IA
+- HackerOne : [@gilmu](https://hackerone.com/gilmu) — remerciement public du Secrétariat du Conseil du Trésor du Canada
 - Cantina : [@GilMu](https://cantina.xyz/u/GilMu)
 - Code4rena : [@GiMu84](https://code4rena.com/@GiMu84)
 

@@ -57,6 +57,7 @@ Every confirmed finding is supported by reproducible evidence and clearly define
 
 **Professional security profiles**
 - Gray Swan Arena: [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) — indirect prompt injection research and adversarial AI evaluation
+- HackerOne: [@gilmu](https://hackerone.com/gilmu) — public acknowledgement from the Treasury Board of Canada Secretariat
 - Cantina: [@GilMu](https://cantina.xyz/u/GilMu)
 - Code4rena: [@GiMu84](https://code4rena.com/@GiMu84)
 
