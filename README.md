@@ -1,5 +1,15 @@
 **English** · [Français](./README.fr.md)
 
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 820px)" srcset="./assets/profile-header-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 820px)" srcset="./assets/profile-header-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark) and (max-width: 1230px)" srcset="./assets/profile-header-tablet-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 1230px)" srcset="./assets/profile-header-tablet-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg">
+  <img alt="Gilles Musy — Independent Security Researcher, AI Engineer, and Full-Stack Developer" src="./assets/profile-header-light.svg">
+</picture>
+
 # Independent Security Researcher · AI Engineer · Full-Stack Developer
 
 Based in Switzerland.
