@@ -7,14 +7,12 @@
   <source media="(prefers-color-scheme: light) and (max-width: 1230px)" srcset="./assets/profile-header-fr-tablet-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-header-fr-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-fr-light.svg">
-  <img alt="Gilles Musy — Chercheur indépendant en sécurité, ingénieur IA et développeur full-stack" src="./assets/profile-header-fr-light.svg">
+  <img alt="Gilles Musy : Chercheur en sécurité, ingénieur IA et développeur full-stack" src="./assets/profile-header-fr-light.svg">
 </picture>
 
-# Chercheur indépendant en sécurité · Ingénieur IA · Développeur full-stack
+# Chercheur en sécurité · Ingénieur IA · Développeur full-stack
 
 Basé en Suisse.
-
-Trois pratiques professionnelles distinctes, présentées séparément ci-dessous.
 
 ---
 
@@ -34,10 +32,7 @@ _Implémentation de référence publique sur testnet ; elle n’a pas fait l’o
 
 ## Recherche en sécurité
 
-**Chercheur en sécurité**
-
-J’identifie, reproduis et documente des failles de sécurité dans les applications web, les smart contracts et les systèmes d’IA.
-Chaque vulnérabilité confirmée repose sur des preuves reproductibles et un impact clairement défini.
+Recherche sur les failles touchant les applications web, les smart contracts et les systèmes d’IA. Les constats publiés sont accompagnés de preuves reproductibles et d’un impact documenté.
 
 **Domaines**
 - Sécurité web et applicative : API, contrôle d’accès, logique métier et intégrations
@@ -56,8 +51,8 @@ Chaque vulnérabilité confirmée repose sur des preuves reproductibles et un im
 - [formal-verification-overflow-audit](https://github.com/Musyg/formal-verification-overflow-audit). Vérification formelle : débordement dans le calcul d’une moyenne, hypothèse d’abord réfutée puis prouvée avec Halmos.
 
 **Profils professionnels en sécurité**
-- Gray Swan Arena : [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) — recherche sur l’injection indirecte de prompts et évaluation adversariale de systèmes d’IA
-- HackerOne : [@gilmu](https://hackerone.com/gilmu) — remerciement public du Secrétariat du Conseil du Trésor du Canada
+- Gray Swan Arena : [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) (recherche sur l’injection indirecte de prompts et évaluation adversariale de systèmes d’IA)
+- HackerOne : [@gilmu](https://hackerone.com/gilmu) (remerciement public du Secrétariat du Conseil du Trésor du Canada)
 - Cantina : [@GilMu](https://cantina.xyz/u/GilMu)
 - Code4rena : [@GiMu84](https://code4rena.com/@GiMu84)
 
@@ -65,11 +60,9 @@ Chaque vulnérabilité confirmée repose sur des preuves reproductibles et un im
 
 ## Ingénierie backend et infrastructure
 
-**Ingénieur backend et infrastructure**
+Services Python et infrastructure, avec un accent sur l’exécution asynchrone, la gestion des pannes et l’observabilité.
 
-Services Python résilients et asynchrones par conception, avec les briques d’infrastructure nécessaires à leur maintien en production.
-
-- [production-agent-template](https://github.com/Musyg/production-agent-template). Modèle de service FastAPI prêt pour la production : cycle de vie applicatif, sondes de santé, circuit breaker, auto-rétablissement, métriques et génération de squelette de projet.
+- [production-agent-template](https://github.com/Musyg/production-agent-template). Gabarit de service FastAPI pour agents : cycle de vie asynchrone, endpoints de santé et de supervision, registre de circuit breakers, fonctions de récupération définies par l’application, métriques Prometheus, boucle d’arrière-plan optionnelle et script de génération.
 - [agent-resilience](https://github.com/Musyg/agent-resilience). Circuit breaker, DLQ adossée à Redis et tampon MQTT hors ligne.
 - [async-api-client](https://github.com/Musyg/async-api-client). Client REST asynchrone résilient : limitation de débit, nouvelles tentatives et pagination.
 - [agent-self-healing](https://github.com/Musyg/agent-self-healing). Surveillance des dépendances avec états en ligne, dégradé et en erreur, ainsi que récupération automatique.
@@ -82,11 +75,9 @@ _Missions : API backend, intégrations, observabilité et CI._
 
 ## IA et systèmes agentiques
 
-**Ingénieur en IA appliquée et systèmes agentiques**
+Systèmes multi-agents, orchestration de modèles locaux et pipelines automatisés de construction et de revue, déployés sur une petite flotte de machines.
 
-Je conçois et développe des systèmes multi-agents autonomes ainsi que des pipelines capables d’améliorer leurs propres processus de construction et d’audit. L’ensemble repose principalement sur des modèles locaux orchestrés sur une petite flotte de machines.
-
-- [talos](https://github.com/Musyg/talos). Plateforme agentique distribuée : environ 55 agents et plus de 85 services sur une flotte de quatre nœuds, architecture mémoire à quatre composantes, assistant vocal et conversationnel en temps réel, et pipelines de construction avec boucle d’auto-amélioration.
+- [talos](https://github.com/Musyg/talos). Plateforme agentique distribuée : environ 55 agents et plus de 85 services sur une flotte de quatre nœuds, architecture mémoire à quatre composantes, assistant vocal et conversationnel en temps réel, et pipelines de construction automatisés.
 - [multi-agent-orchestrator](https://github.com/Musyg/multi-agent-orchestrator). Modèle de routage des tâches fondé sur les capacités.
 
 **Stack** : Python asynchrone par conception · exploitation de modèles locaux (llama.cpp / GGUF, routage de modèles, bascule à chaud optimisée selon la VRAM) · orchestration multi-agent · mémoire graph-RAG · recherche vectorielle · bus d’événements MQTT · voix en temps réel · Prometheus / VictoriaMetrics · systemd · CI (ruff, pytest, pre-commit).
@@ -95,9 +86,7 @@ Je conçois et développe des systèmes multi-agents autonomes ainsi que des pip
 
 ## Ma méthode
 
-- Les preuves avant les affirmations : si ce n’est pas reproductible, ce n’est pas établi.
-- Pilotage par les métriques : chaque changement est mesuré.
-- Vérification par l’exécution, jamais sur la base d’un résultat isolé.
+Je privilégie les exemples reproductibles, les mesures pertinentes et les tests sur le système en fonctionnement.
 
 ## Développement web
 
