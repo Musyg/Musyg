@@ -24,7 +24,7 @@ Based in Switzerland.
 
 - **On-chain:** original v1 contract verified on Celo Sepolia, with public sample transactions and credentials
 - **Application:** Solidity, Foundry, Express, PostgreSQL, Next.js, wagmi, viem, and TypeScript
-- **Current security design:** authorized issuers, replay and expiry protection, non-transferability, revocation restricted to the contract owner or the original active issuer, fuzz testing, and 11/11 Foundry tests
+- **Current security design:** authorized issuers, replay and expiry protection, non-transferability, revocation restricted to the contract owner or the original issuer if it is still authorized, fuzz testing, and 11/11 Foundry tests
 
 _The current source is pending a new testnet deployment. Public testnet reference implementation; not audited for production use._
 
