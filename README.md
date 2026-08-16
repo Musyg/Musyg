@@ -22,11 +22,11 @@ Based in Switzerland.
 
 [celo-credentials-dapp](https://github.com/Musyg/celo-credentials-dapp) is a full-stack reference application for gasless, non-transferable education credentials on Celo. Institutions sign EIP-712 vouchers off-chain, a relayer pays the gas, and credentials remain publicly verifiable and revocable on-chain.
 
-- **On-chain:** original v1 contract verified on Celo Sepolia, with public sample transactions and credentials
+- **On-chain:** [fully source-verified contract](https://celo-sepolia.blockscout.com/address/0xCE6A729c96C6c5f61d90E0139bCF929A777CCAC7) on Celo Sepolia, with public issuer authorization, issuance, active verification, and revocation evidence
 - **Application:** Solidity, Foundry, Express, PostgreSQL, Next.js, wagmi, viem, and TypeScript
-- **Current security design:** authorized issuers, replay and expiry protection, non-transferability, revocation restricted to the contract owner or the original issuer if it is still authorized, fuzz testing, and 11/11 Foundry tests
+- **Security design:** authorized issuers, replay and expiry protection, non-transferability, revocation by the contract owner or the still-authorized original issuer, and 11/11 Foundry tests including fuzzing
 
-_The current source is pending a new testnet deployment. Public testnet reference implementation; not audited for production use._
+_Public testnet reference implementation with a reproducible credential lifecycle; not independently audited for production use._
 
 ---
 
