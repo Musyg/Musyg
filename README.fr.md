@@ -22,11 +22,11 @@ Basé en Suisse.
 
 [celo-credentials-dapp](https://github.com/Musyg/celo-credentials-dapp) est une application de référence complète permettant d’émettre sur Celo des attestations de formation non transférables sans frais pour leur bénéficiaire. Les établissements signent des autorisations EIP-712 hors chaîne, un service de relais prend en charge les frais et les attestations restent vérifiables et révocables publiquement sur la blockchain.
 
-- **Sur la blockchain :** contrat v1 d’origine vérifié sur Celo Sepolia, avec transactions et attestations d’exemple publiques
+- **Sur la blockchain :** [contrat dont le code source est entièrement vérifié](https://celo-sepolia.blockscout.com/address/0xCE6A729c96C6c5f61d90E0139bCF929A777CCAC7) sur Celo Sepolia, avec des preuves publiques de l’autorisation d’un émetteur, de l’émission d’une attestation, de sa vérification à l’état actif et de sa révocation
 - **Application :** Solidity, Foundry, Express, PostgreSQL, Next.js, wagmi, viem et TypeScript
-- **Conception actuelle de la sécurité :** émetteurs autorisés, protection contre le rejeu et l’expiration, non-transférabilité, révocation limitée au propriétaire du contrat ou à l’émetteur d’origine encore autorisé, fuzzing et 11 tests Foundry réussis sur 11
+- **Conception de la sécurité :** émetteurs autorisés, protection contre le rejeu et l’expiration, non-transférabilité, révocation par le propriétaire du contrat ou l’émetteur d’origine encore autorisé, et 11 tests Foundry réussis sur 11, dont des tests par fuzzing
 
-_La version actuelle du code n’a pas encore été redéployée sur testnet. Implémentation de référence publique sur testnet ; elle n’a pas fait l’objet d’un audit indépendant pour un usage en production._
+_Implémentation de référence publique sur testnet, avec un cycle de vie d’attestation reproductible ; elle n’a pas fait l’objet d’un audit indépendant pour un usage en production._
 
 ---
 
