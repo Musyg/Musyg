@@ -73,10 +73,11 @@ _Engagement: backend APIs, integrations, observability, CI._
 
 ---
 
-## Agentic AI Systems
+## AI Engineering & Agentic Systems
 
-Multi-agent systems, local-model orchestration, and automated build and review pipelines running across a small fleet of machines.
+Applied AI architecture, multi-agent systems, local-model orchestration, and automated build and review pipelines.
 
+- [AI Adoption Playbook](https://github.com/Musyg/ai-adoption-playbook). Interactive guide for choosing between AI assistance, workflow automation, decision support, and autonomous business agents. It covers realistic use cases, pilot design, evidence, controls, and Swiss and EU governance requirements. [Open the guide](https://musyg.github.io/ai-adoption-playbook/).
 - [talos](https://github.com/Musyg/talos). Distributed agentic platform: ~55 agents and 85+ services across a four-node fleet, four-part memory, real-time voice and chat assistant, and automated build pipelines.
 - [multi-agent-orchestrator](https://github.com/Musyg/multi-agent-orchestrator). Capability-based task routing template.
 

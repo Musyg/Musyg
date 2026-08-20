@@ -73,10 +73,11 @@ _Missions : API backend, intégrations, observabilité et CI._
 
 ---
 
-## IA et systèmes agentiques
+## Ingénierie IA et systèmes agentiques
 
-Systèmes multi-agents, orchestration de modèles locaux et pipelines automatisés de construction et de revue, déployés sur une petite flotte de machines.
+Architecture IA appliquée, systèmes multi-agents, orchestration de modèles locaux et pipelines automatisés de construction et de revue.
 
+- [AI Adoption Playbook](https://github.com/Musyg/ai-adoption-playbook). Guide interactif pour choisir entre assistance IA, automatisation de processus, aide à la décision et agents métier autonomes. Il couvre des cas d’usage réalistes, la conception du pilote, les preuves, les contrôles ainsi que les exigences applicables en Suisse et dans l’Union européenne. [Ouvrir le guide](https://musyg.github.io/ai-adoption-playbook/fr/).
 - [talos](https://github.com/Musyg/talos). Plateforme agentique distribuée : environ 55 agents et plus de 85 services sur une flotte de quatre nœuds, architecture mémoire à quatre composantes, assistant vocal et conversationnel en temps réel, et pipelines de construction automatisés.
 - [multi-agent-orchestrator](https://github.com/Musyg/multi-agent-orchestrator). Modèle de routage des tâches fondé sur les capacités.
 
