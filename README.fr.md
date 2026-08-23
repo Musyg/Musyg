@@ -52,9 +52,9 @@ Recherche sur les failles touchant les applications web, les smart contracts et 
 
 **Profils professionnels en sécurité**
 - Gray Swan Arena : [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) (recherche sur l’injection indirecte de prompts et évaluation adversariale de systèmes d’IA)
-- HackerOne : [@gilmu](https://hackerone.com/gilmu) (remerciement public du Secrétariat du Conseil du Trésor du Canada)
-- Cantina : [@GilMu](https://cantina.xyz/u/GilMu)
-- Code4rena : [@GiMu84](https://code4rena.com/@GiMu84)
+- HackerOne : [@gilmu](https://hackerone.com/gilmu) (Secrétariat du Conseil du Trésor du Canada : 1 rapport valide et résolu)
+- Cantina : [@GilMu](https://cantina.xyz/u/GilMu) (Reserve Protocol et Revert Finance : 3 constats publics)
+- Code4rena : [@GiMu84](https://code4rena.com/@GiMu84) (Chainlink Payment Abstraction V2 et K2 : 1 constat de risque moyen sur chacun)
 
 ---
 

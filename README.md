@@ -52,9 +52,9 @@ Security research on web applications, smart contracts, and AI systems. Publishe
 
 **Professional security profiles**
 - Gray Swan Arena: [GilMu](https://app.grayswan.ai/arena/user/6a3043c8221a153764c96ab5) (indirect prompt injection research and adversarial AI evaluation)
-- HackerOne: [@gilmu](https://hackerone.com/gilmu) (public acknowledgement from the Treasury Board of Canada Secretariat)
-- Cantina: [@GilMu](https://cantina.xyz/u/GilMu)
-- Code4rena: [@GiMu84](https://code4rena.com/@GiMu84)
+- HackerOne: [@gilmu](https://hackerone.com/gilmu) (Treasury Board of Canada Secretariat: 1 valid, resolved report)
+- Cantina: [@GilMu](https://cantina.xyz/u/GilMu) (Reserve Protocol and Revert Finance: 3 public findings)
+- Code4rena: [@GiMu84](https://code4rena.com/@GiMu84) (Chainlink Payment Abstraction V2 and K2: 1 medium-risk finding in each)
 
 ---
 
