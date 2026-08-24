@@ -3,20 +3,20 @@
   <desc id="desc">Recherche en sécurité, ingénierie IA agentique et développement full-stack.</desc>
   <rect width="960" height="480" rx="18" fill="#0F1216"/>
   <path d="M0 64H960M40 176H920M40 274H920M40 372H920" stroke="#25303A"/>
-  <path d="M40 30H82" stroke="#1C9FFF" stroke-width="4"/>
+  <path d="M40 30H82" stroke="#005EFF" stroke-width="4"/>
   <text x="98" y="40" fill="#F1F5F7" font-family="Arial, 'Segoe UI', sans-serif" font-size="26" font-weight="700" letter-spacing="3">GILLES MUSY</text>
   <text x="920" y="40" text-anchor="end" fill="#B7C2C9" font-family="'Courier New', monospace" font-size="22" letter-spacing="1.5">SUISSE · MUSYG</text>
   <text x="40" y="104" fill="#B7C2C9" font-family="'Courier New', monospace" font-size="24" letter-spacing="2">LOGICIEL · IA · SÉCURITÉ</text>
   <text x="40" y="148" fill="#F1F5F7" font-family="Arial, 'Segoe UI', sans-serif" font-size="32" font-weight="600">Dépôts, sites web et profils de recherche.</text>
   <g font-family="'Courier New', monospace">
-    <text x="40" y="232" fill="#1C9FFF" font-size="26" font-weight="700">01</text>
+    <text x="40" y="232" fill="#005EFF" font-size="26" font-weight="700">01</text>
     <text x="110" y="232" fill="#F1F5F7" font-size="34" font-weight="700" letter-spacing="1.2">RECHERCHE EN SÉCURITÉ</text>
-    <path d="M40 252H82" stroke="#1C9FFF" stroke-width="3"/>
-    <text x="40" y="330" fill="#008AFF" font-size="26" font-weight="700">02</text>
+    <path d="M40 252H82" stroke="#005EFF" stroke-width="3"/>
+    <text x="40" y="330" fill="#005EFF" font-size="26" font-weight="700">02</text>
     <text x="110" y="330" fill="#F1F5F7" font-size="34" font-weight="700" letter-spacing="1.2">INGÉNIERIE IA AGENTIQUE</text>
-    <path d="M40 350H82" stroke="#008AFF" stroke-width="3"/>
-    <text x="40" y="428" fill="#0A84E6" font-size="26" font-weight="700">03</text>
+    <path d="M40 350H82" stroke="#005EFF" stroke-width="3"/>
+    <text x="40" y="428" fill="#005EFF" font-size="26" font-weight="700">03</text>
     <text x="110" y="428" fill="#F1F5F7" font-size="34" font-weight="700" letter-spacing="1.2">DÉVELOPPEMENT FULL-STACK</text>
-    <path d="M40 448H82" stroke="#0A84E6" stroke-width="3"/>
+    <path d="M40 448H82" stroke="#005EFF" stroke-width="3"/>
   </g>
 </svg>
