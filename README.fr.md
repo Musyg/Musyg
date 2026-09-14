@@ -14,6 +14,8 @@
 
 Basé en Suisse.
 
+[Portfolio](https://musyg.com/fr/) · Réalisations, expertises et contact.
+
 ---
 
 ## Projet full-stack phare

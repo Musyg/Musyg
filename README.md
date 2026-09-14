@@ -14,6 +14,8 @@
 
 Based in Switzerland.
 
+[Portfolio](https://musyg.com/) · Selected projects, expertise, and contact.
+
 ---
 
 ## Selected Full-Stack System
