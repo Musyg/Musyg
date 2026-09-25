@@ -32,6 +32,17 @@ _Public testnet reference implementation with a reproducible credential lifecycl
 
 ---
 
+## Self-hosted VPN
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/bifrost/bifrost-fond-sombre.png">
+  <img src="./assets/bifrost/bifrost-couleur.png" alt="Bifrost" width="320">
+</picture>
+
+[bifrost-vpn](https://github.com/Musyg/bifrost-vpn) is a self-hosted VPN in Rust for Windows and Linux, built around WireGuard, a kill switch, and leak-prevention checks. Public MVP, in development. [Project overview](https://musyg.com/work/bifrost-vpn/).
+
+---
+
 ## Security Research
 
 Security research on web applications, smart contracts, and AI systems. Published findings include reproducible evidence and a documented impact.

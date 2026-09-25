@@ -32,6 +32,17 @@ _Implémentation de référence publique sur testnet, avec un cycle de vie d’a
 
 ---
 
+## VPN auto-hébergé
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/bifrost/bifrost-fond-sombre.png">
+  <img src="./assets/bifrost/bifrost-couleur.png" alt="Bifrost" width="320">
+</picture>
+
+[bifrost-vpn](https://github.com/Musyg/bifrost-vpn) est un VPN auto-hébergé en Rust pour Windows et Linux, avec WireGuard, kill switch et contrôles anti-fuite. MVP public, en développement. [Présentation du projet](https://musyg.com/fr/realisations/bifrost-vpn/).
+
+---
+
 ## Recherche en sécurité
 
 Recherche sur les failles touchant les applications web, les smart contracts et les systèmes d’IA. Les constats publiés sont accompagnés de preuves reproductibles et d’un impact documenté.
