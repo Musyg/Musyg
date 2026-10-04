@@ -12,9 +12,15 @@
 
 # Security Researcher · AI Engineer · Full-Stack Developer
 
-Based in Switzerland.
+I’m Gilles Musy (Musyg), based in Switzerland and working with teams worldwide as a freelancer.
 
 [Portfolio](https://musyg.com/) · Selected projects, expertise, and contact.
+
+- [AI agent security testing and red teaming](https://musyg.com/security-research/#engagement-title): indirect prompt injection (IPI), tool misuse and adversarial evaluation.
+- [AI engineering](https://musyg.com/ai-systems/#engagement-title): Python agents, multi-agent orchestration and business integrations.
+- [Full-stack development](https://musyg.com/engineering/#engagement-title): React, TypeScript, WordPress and custom backend services.
+
+[Discuss an engagement](https://musyg.com/contact/).
 
 ---
 
@@ -104,6 +110,6 @@ I document claims with reproducible examples, measure changes when useful, and v
 
 ## Web Development
 
-- [Inaricom case study](./case-studies/en/inaricom.md): hybrid WordPress/WooCommerce backend and React interface rebuild in progress ([project URL](https://inaricom.com)).
+- [Inaricom case study](https://musyg.com/work/inaricom/): WordPress/WooCommerce website, React interfaces and custom backend integrations ([project URL](https://inaricom.com)).
 - [Mika's Shop case study](./case-studies/en/mikasshop.md): end-to-end Shopify store design and implementation ([live store](https://mikasshop.com)).
 - [Pedi-Sense case study](./case-studies/en/pedi-sense.md): end-to-end Shopify store design and implementation ([live store](https://pedi-sense.com)).

@@ -12,9 +12,15 @@
 
 # Chercheur en sécurité · Ingénieur IA · Développeur full-stack
 
-Basé en Suisse.
+Je suis Gilles Musy (Musyg), basé en Suisse. J’interviens en freelance pour des équipes partout dans le monde.
 
 [Portfolio](https://musyg.com/fr/) · Réalisations, expertises et contact.
+
+- [Tests de sécurité des agents IA et red teaming](https://musyg.com/fr/recherche-securite/#engagement-title) : injection indirecte de prompts (IPI), abus d’outils et évaluation adversariale.
+- [Ingénierie IA](https://musyg.com/fr/systemes-ia/#engagement-title) : agents Python, orchestration multi-agent et intégrations métier.
+- [Développement full-stack](https://musyg.com/fr/ingenierie/#engagement-title) : React, TypeScript, WordPress et services backend sur mesure.
+
+[Discuter d’une mission](https://musyg.com/fr/contact/).
 
 ---
 
@@ -104,6 +110,6 @@ Je privilégie les exemples reproductibles, les mesures pertinentes et les tests
 
 ## Développement web
 
-- [Étude de cas Inaricom](./case-studies/fr/inaricom.md) : refonte en cours avec un backend WordPress/WooCommerce et des interfaces React ([URL du projet](https://inaricom.com)).
+- [Étude de cas Inaricom](https://musyg.com/fr/realisations/inaricom/) : site WordPress/WooCommerce, interfaces React et intégrations backend sur mesure ([URL du projet](https://inaricom.com)).
 - [Étude de cas Mika's Shop](./case-studies/fr/mikasshop.md) : conception et réalisation complète de la boutique Shopify ([voir la boutique](https://mikasshop.com)).
 - [Étude de cas Pedi-Sense](./case-studies/fr/pedi-sense.md) : conception et réalisation complète de la boutique Shopify ([voir la boutique](https://pedi-sense.com)).
