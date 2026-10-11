@@ -8,78 +8,47 @@
 
 _Official Mika's Shop image retrieved from the live storefront on 2026-08-14._
 
+Project started: 2024.
+
 ## Summary
 
-Mika's Shop is a Shopify store for cat and pet products. Its main merchandising choice is to group toys by the cat they suit, including kittens, easy-going cats, hunters, and sensitive cats, rather than relying only on product categories.
-
-The storefront combines a product catalogue, localized shopping, editorial content, and a free adoption guide.
+Mika is the real cat at the heart of the Mika's Shop brand. Behind the Shopify storefront, I developed an AI store assistant, ecommerce and support agents, customer-relationship workflows and event analytics. Visitors can browse by cat profile or product category; the assistant guides them using catalogue and site information.
 
 ## Role and scope
 
-Gilles Musy designed and implemented the Shopify store end to end. The work covered:
+I designed and built the storefront, from the theme, navigation and collections to localization, editorial content and launch. I also developed the store’s AI assistant interface and backend, its catalogue and site-content tools, and its customer-support agent integration.
 
-- store structure and storefront configuration;
-- theme customization and page composition;
-- collections, navigation, product pages, and product variants;
-- English, French, and German storefronts;
-- country, region, and currency selection through Shopify Markets;
-- cart, checkout, shipping, returns, policy, and contact pages and flows;
-- the blog, the brand story, and the downloadable guide;
-- launch of the public store.
+The work also includes branded customer-relationship workflows, a custom tracking pixel, KPI delivery to Analytics Hub and an editorial workflow that prepares French and English product-based drafts for review.
 
-He was the sole implementer for this scope.
+## Problem and constraints
 
-## Commerce and content structure
+The store needed a clear way to match products to different cat behaviors while still preserving a familiar, localized e-commerce journey.
 
-Shopify provides the hosted commerce layer, catalogue, localization, cart, and checkout. The storefront adds the customer-facing structure:
+## Architecture
 
-```text
-Shopify
-|-- theme and page composition
-|-- product catalogue and variants
-|-- collections by product type and cat profile
-|-- Markets, languages, regions, and currencies
-|-- cart, checkout, shipping, and returns
-`-- blog, guide, policies, and contact pages
-```
+Shopify provides hosted commerce, catalogue, localization, cart, and checkout. The storefront theme organizes collections by product type and cat profile, multilingual content, editorial pages, and customer information.
 
-The platform was kept deliberately hosted rather than introducing a custom backend. This reduces operational overhead while retaining Shopify's standard commerce workflow.
+The store’s AI assistant uses a Python/FastAPI service with tool calls for product advice, catalogue search, stock, store policies and navigation links. A browser widget displays responses over SSE. A separate customer-support service handles support requests, response drafts, operator approval and escalation pathways, with MQTT connecting the approval workflow.
 
-## Selected decisions
+The ecommerce backend supplies catalogue retrieval through FAISS and business knowledge and store policies through Qdrant. Product prices and availability come from dedicated Shopify-reading tools. The content workflow prepares product-based drafts; content and SEO skills document task-specific instructions and editorial methods.
 
-- Products can be discovered by cat profile as well as by conventional category.
-- Noise sensitivity is part of the product-selection language for sensitive cats.
-- Editorial content supports the catalogue without hiding the store behind a content site.
-- The adoption guide is available as an 18-page PDF without a sign-up requirement.
-- Localization uses three storefront languages and a country or region selector with local currencies.
+The custom pixel collects storefront events such as product views, cart additions and purchase steps. The analytics pipeline stores, aggregates and attributes events, then sends KPI snapshots to Analytics Hub via MQTT. Support and ecommerce agents also emit business events for analysis.
 
-## Security and operations
+## Decisions and trade-offs
 
-Checkout and payment handling use Shopify's managed commerce flow. This case study does not claim a custom payment implementation or an independent security audit.
+Shopify retains checkout and commerce while custom services handle guidance and support. The assistant’s tool set focuses on site information rather than order lookup or purchases. Customer support follows a separate workflow with configurable response routing and operator escalation; it is not the public shopping chat.
 
-The public storefront exposes shipping, returns, privacy, terms, legal notice, contact information, and cookie-preference pages. Their presence is recorded here without making a legal-compliance claim.
+## Public results
 
-## Public verification
+The public store is live with English, French, and German content, localized regions and currencies, product collections, editorial content, and a downloadable adoption guide.
 
-Verified against the live storefront on 2026-08-14:
+## Scope and current status
 
-- the home, About, product, blog, and guide pages were reachable;
-- English, French, and German were offered in the language selector;
-- the country or region selector exposed local currencies;
-- a sample product page exposed variants, quantity, cart, shipping, returns, and secure-checkout information;
-- the free guide was linked as an 18-page PDF with no sign-up.
+The store is online. The AI assistant and customer-support integrations are developed.
 
-No test purchase was made during this verification.
+## Resources and links
 
-## Public evidence
-
+- [Portfolio case study](https://musyg.com/work/mikasshop/)
 - [Live store](https://mikasshop.com)
-- [Brand and product-selection rationale](https://mikasshop.com/pages/about-us)
-- [New cat checklist and downloadable guide](https://mikasshop.com/blogs/news/new-cat-checklist-welcoming-guide)
-- [Sample product page](https://mikasshop.com/products/quick-drying-pet-towel)
 
-## Limits
-
-- Sales, conversion, traffic, and revenue figures are not public and are not claimed here.
-- Product availability, prices, markets, and storefront content can change after the verification date.
-- The commerce backend is Shopify, not a bespoke application backend.
+Business integration source code is private.

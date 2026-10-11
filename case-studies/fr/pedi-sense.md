@@ -8,83 +8,45 @@
 
 _Visuel officiel de Pedi-Sense récupéré sur la boutique publique le 14 août 2026._
 
+Début du projet : Fin 2022.
+
 ## Présentation
 
-Pedi-Sense est une boutique Shopify spécialisée dans les chaussettes séparatrices d'orteils. La vitrine présente un produit principal à travers ses moments d'utilisation prévus, ses couleurs, ses offres par lot, ses contenus localisés et un parcours d'achat complet.
-
-Le site réunit la vente en ligne, la présentation de la marque, les informations d'assistance et des articles éditoriaux dans cinq langues.
+Pedi-Sense associe une boutique Shopify à des agents e-commerce et SAV, des emails aux couleurs de la marque, une recherche catalogue et l’analyse des événements. Le travail couvre la boutique visible par les clients et les parcours métier qui l’accompagnent.
 
 ## Rôle et périmètre
 
-Gilles Musy a assuré la conception et la réalisation complète de la boutique Shopify. Son intervention couvre :
+J’ai conçu et réalisé la boutique, de la composition du thème et des options produit à la localisation, aux contenus et à la mise en ligne. J’ai aussi développé les intégrations métier de Pedi-Sense, notamment les parcours SAV, les emails aux couleurs de la marque et la collecte des événements de la boutique.
 
-- l'architecture de la boutique et la configuration de Shopify ;
-- la personnalisation du thème, la composition visuelle et la navigation ;
-- le catalogue, la fiche produit, les variantes de couleur et les offres par lot ;
-- les versions française, anglaise, allemande, italienne et espagnole ;
-- la sélection du pays, de la région et de la devise avec Shopify Markets ;
-- le panier, le passage en caisse, le compte client, le suivi de commande, la livraison et les retours ;
-- l'histoire de la marque, la FAQ, le contact, les politiques et les pages éditoriales ;
-- les métadonnées canoniques et les alternatives linguistiques de la boutique localisée ;
-- la mise en ligne de la boutique publique.
+J’ai développé l’intégration du pixel de suivi et le parcours des événements jusqu’aux KPI de l’Analytics Hub. Les agents sont aussi reliés à la recherche sémantique du catalogue et aux connaissances e-commerce, avec des parcours de contenu et de SEO développés pour la boutique.
 
-Il est le seul intervenant sur ce périmètre.
+## Problème et contraintes
 
-## Organisation de la boutique
+Un catalogue ciblé a besoin d’une structure suffisante pour les variantes, les offres par lot, les informations pratiques, l’assistance, la localisation et les contenus éditoriaux sans masquer le parcours d’achat.
 
-Shopify fournit la couche e-commerce hébergée, le catalogue, la localisation, le panier et le passage en caisse. La vitrine publique organise le parcours client :
+## Architecture
 
-```text
-Shopify
-|-- thème, navigation et composition des pages
-|-- catalogue, couleurs et offres par lot
-|-- Markets, cinq langues, régions et devises
-|-- panier, passage en caisse, comptes, livraison et retours
-|-- histoire de la marque, FAQ, politiques et contact
-`-- blog et métadonnées de recherche localisées
-```
+Shopify prend en charge le catalogue, les comptes, le panier et le paiement. Des services Python relient les agents e-commerce et SAV aux informations de produit, de stock et de commande. Le SAV prépare les réponses à valider et les transmissions à un opérateur ; les automatisations email couvrent confirmations de commande, paniers abandonnés et expéditions via Listmonk.
 
-La boutique utilise le backend hébergé de Shopify plutôt qu'un service e-commerce développé sur mesure. Les produits, les commandes, la localisation et le passage en caisse restent ainsi dans le parcours standard de la plateforme.
+La recherche catalogue utilise FAISS, tandis que Qdrant apporte les connaissances e-commerce, les politiques et les FAQ de la boutique. Le parcours de contenu et de SEO comprend des consignes de tâche documentées sous forme de skills. Les faits du catalogue, les documents SAV et les méthodes éditoriales restent ainsi distincts.
 
-## Choix principaux
+L’intégration du pixel maison collecte les événements de navigation et du parcours d’achat. Les services d’analyse les stockent, les agrègent et leur attribuent des canaux, puis publient des KPI vers l’Analytics Hub via MQTT. Les événements émis par les agents métier alimentent aussi la chaîne d’analyse.
 
-- Un catalogue ciblé laisse suffisamment de place aux informations sur l'utilisation, la matière, la taille et l'entretien du produit principal.
-- Le choix de la couleur et les offres d'une, deux ou trois paires sont intégrés au parcours produit.
-- Cinq langues partagent la même structure commerciale tout en conservant des routes localisées.
-- La page d'accueil déclare une URL canonique ainsi que les versions française, anglaise, allemande, italienne, espagnole et par défaut.
-- L'histoire de la marque, la FAQ, le contact, les politiques et le blog accompagnent l'achat et les questions après-vente.
+## Choix et compromis
 
-## Sécurité et exploitation
+J’ai conservé le paiement dans Shopify tout en développant les parcours métier séparément. Le SAV comprend des brouillons à valider et une transmission à un opérateur. Les modèles d’emails couvrent les confirmations de commande, les paniers abandonnés et les expéditions.
 
-Le passage en caisse et le traitement des paiements reposent sur le parcours géré par Shopify. Cette étude de cas ne revendique ni système de paiement personnalisé ni audit de sécurité indépendant.
+## Résultats publics
 
-La boutique publique présente des pages consacrées à la livraison, aux retours, à la confidentialité, aux conditions d'utilisation, aux mentions légales, au contact et aux préférences relatives aux cookies. Leur présence est constatée sans en déduire une conformité juridique.
+La boutique en ligne présente un parcours d’achat complet en français, anglais, allemand, italien et espagnol, avec des régions, devises, choix de produits, informations clients et contenus éditoriaux localisés.
 
-Cette étude de cas porte sur la réalisation de la boutique. Elle ne valide pas de manière indépendante les affirmations relatives au produit ou à la santé présentes dans les contenus du site.
+## Périmètre et état actuel
 
-## Vérification publique
+La boutique est en ligne. Les services d’agents et les intégrations backend sont développés.
 
-Éléments contrôlés sur la boutique publique le 14 août 2026 :
+## Ressources et liens
 
-- les pages d'accueil, de produit, de présentation de la marque, de FAQ, de contact, de politiques et de blog étaient accessibles ;
-- le français, l'anglais, l'allemand, l'italien et l'espagnol figuraient dans le sélecteur de langue ;
-- le sélecteur de pays ou de région proposait des devises locales ;
-- la fiche produit présentait huit couleurs, des choix d'une, deux ou trois paires, le panier, l'achat direct ainsi que des informations sur la livraison et les retours ;
-- la page d'accueil présentait une URL canonique et les métadonnées correspondant aux différentes langues.
-
-Aucun achat de test n'a été effectué pendant cette vérification.
-
-## Preuves publiques
-
+- [Présentation sur le portfolio](https://musyg.com/fr/realisations/pedi-sense/)
 - [Boutique publique](https://pedi-sense.com)
-- [Fiche produit](https://pedi-sense.com/products/chaussettes-separatrices-orteils)
-- [Histoire de la marque](https://pedi-sense.com/pages/notre-histoire)
-- [FAQ](https://pedi-sense.com/pages/faq-questions-frequentes)
-- [Articles éditoriaux](https://pedi-sense.com/blogs/articles-de-pedi-sense)
 
-## Limites
-
-- Les chiffres de vente, de conversion, d'audience et de chiffre d'affaires ne sont pas publics et ne sont pas revendiqués ici.
-- Les effets du produit et les témoignages clients ne sont pas considérés comme des preuves vérifiées de manière indépendante.
-- Les produits, les prix, les marchés et les contenus peuvent évoluer après la date de vérification.
-- Le backend e-commerce est celui de Shopify et non une application développée sur mesure.
+Le code des intégrations métier est privé.

@@ -60,6 +60,7 @@ Recherche sur les failles touchant les applications web, les smart contracts et 
 - Sécurité de l’IA et des agents : injection indirecte de prompts, usage abusif d’outils, chaînes d’attaque sur systèmes agentiques et évaluation adversariale
 
 **Réalisations vérifiables**
+- [Injection indirecte dans un agent de remboursement](https://musyg.com/fr/publications/injection-indirecte-remboursement/). Étude de cas Gray Swan : un contenu client détourne l’usage des outils de l’agent, avec un break validé 10/10.
 - [security-reviews](https://github.com/Musyg/security-reviews), un catalogue d’audits reproductibles avec un dépôt par classe de vulnérabilité. Chaque dépôt comprend une cible vulnérable, une preuve de concept d’exploitation, une branche corrigée et un rapport, le tout validé par CI.
 - [erc4626-inflation-audit](https://github.com/Musyg/erc4626-inflation-audit). Inflation des parts ERC-4626 lors du premier dépôt.
 - [eip712-signature-replay-audit](https://github.com/Musyg/eip712-signature-replay-audit). Malléabilité de signature ECDSA permettant une double dépense.
@@ -83,6 +84,7 @@ Services Python et infrastructure, avec un accent sur l’exécution asynchrone,
 
 - [production-agent-template](https://github.com/Musyg/production-agent-template). Gabarit de service FastAPI pour agents : cycle de vie asynchrone, endpoints de santé et de supervision, registre de circuit breakers, fonctions de récupération définies par l’application, métriques Prometheus, boucle d’arrière-plan optionnelle et script de génération.
 - [agent-resilience](https://github.com/Musyg/agent-resilience). Circuit breaker, DLQ adossée à Redis et tampon MQTT hors ligne.
+- [Persistent Memory](https://musyg.com/fr/realisations/persistent-memory/). Bibliothèque Python de mémoire versionnée, traçabilité des sources, recherche typée et retrait des informations. Version alpha publique.
 - [async-api-client](https://github.com/Musyg/async-api-client). Client REST asynchrone résilient : limitation de débit, nouvelles tentatives et pagination.
 - [agent-self-healing](https://github.com/Musyg/agent-self-healing). Surveillance des dépendances avec états en ligne, dégradé et en erreur, ainsi que récupération automatique.
 - [agent-metrics](https://github.com/Musyg/agent-metrics). Compteurs, jauges et histogrammes sans dépendance externe, exposés au format texte de Prometheus.
@@ -106,10 +108,10 @@ Architecture IA appliquée, systèmes multi-agents, orchestration de modèles lo
 
 ## Ma méthode
 
-Je privilégie les exemples reproductibles, les mesures pertinentes et les tests sur le système en fonctionnement.
+Je pars du problème, construis le système et l’améliore par l’usage et les tests. La documentation explique mes choix et permet à d’autres d’explorer le travail.
 
 ## Développement web
 
-- [Étude de cas Inaricom](https://musyg.com/fr/realisations/inaricom/) : site WordPress/WooCommerce, interfaces React et intégrations backend sur mesure ([URL du projet](https://inaricom.com)).
-- [Étude de cas Mika's Shop](./case-studies/fr/mikasshop.md) : conception et réalisation complète de la boutique Shopify ([voir la boutique](https://mikasshop.com)).
-- [Étude de cas Pedi-Sense](./case-studies/fr/pedi-sense.md) : conception et réalisation complète de la boutique Shopify ([voir la boutique](https://pedi-sense.com)).
+- [Étude de cas Inaricom](./case-studies/fr/inaricom.md) : WordPress/WooCommerce, interfaces React, intégration fournisseur, agents e-commerce et commerciaux, devis, facturation et analyse des événements ([voir Inaricom](https://inaricom.com)).
+- [Étude de cas Mika's Shop](./case-studies/fr/mikasshop.md) : boutique Shopify, assistant conversationnel IA, agents SAV, parcours éditoriaux et analyse des événements ([voir la boutique](https://mikasshop.com)).
+- [Étude de cas Pedi-Sense](./case-studies/fr/pedi-sense.md) : boutique Shopify, agents e-commerce et SAV, automatisations email et analyse des événements ([voir la boutique](https://pedi-sense.com)).

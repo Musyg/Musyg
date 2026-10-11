@@ -8,78 +8,47 @@
 
 _Visuel officiel de Mika's Shop récupéré sur la boutique publique le 14 août 2026._
 
+Début du projet : 2024.
+
 ## Présentation
 
-Mika's Shop est une boutique Shopify consacrée aux produits pour chats et animaux de compagnie. Son principal choix de marchandisage consiste à classer les jouets selon le profil du chat auquel ils conviennent, notamment les chatons, les chats calmes, les chasseurs et les chats sensibles, plutôt que de s'appuyer uniquement sur des catégories de produits.
-
-La boutique réunit un catalogue, une expérience d'achat localisée, des contenus éditoriaux et un guide gratuit sur l'adoption.
+Mika est le vrai chat qui incarne la marque Mika's Shop. Derrière la boutique Shopify, j’ai développé un assistant conversationnel IA, des agents e-commerce et SAV, des parcours de relation client et l’analyse des événements. La navigation propose des entrées par profil de chat ou catégorie de produits ; l’assistant guide les visiteurs à partir du catalogue et des contenus du site.
 
 ## Rôle et périmètre
 
-Gilles Musy a assuré la conception et la réalisation complète de la boutique Shopify. Son intervention couvre :
+J’ai conçu et réalisé la boutique, du thème, de la navigation et des collections à la localisation, aux contenus éditoriaux et à la mise en ligne. J’ai aussi développé l’interface et le backend de l’assistant conversationnel, ses outils d’accès au catalogue et aux contenus du site, ainsi que l’intégration de l’agent SAV de la boutique.
 
-- la structure de la boutique et la configuration de sa vitrine publique ;
-- la personnalisation du thème et la composition des pages ;
-- les collections, la navigation, les fiches produit et leurs variantes ;
-- les versions anglaise, française et allemande ;
-- la sélection du pays, de la région et de la devise avec Shopify Markets ;
-- le panier, le passage en caisse et les pages consacrées à la livraison, aux retours, aux politiques et au contact ;
-- le blog, l'histoire de la marque et le guide téléchargeable ;
-- la mise en ligne de la boutique publique.
+Le travail comprend aussi les parcours de relation client aux couleurs de la marque, un pixel de suivi maison, la transmission de KPI à l’Analytics Hub et un parcours éditorial qui prépare des brouillons français et anglais à partir des produits, à relire avant publication.
 
-Il est le seul intervenant sur ce périmètre.
+## Problème et contraintes
 
-## Organisation de la boutique
+La boutique devait proposer une manière claire d’associer les produits à différents comportements de chats tout en conservant un parcours e-commerce familier et localisé.
 
-Shopify fournit la couche e-commerce hébergée, le catalogue, la localisation, le panier et le passage en caisse. La vitrine organise l'expérience présentée aux visiteurs :
+## Architecture
 
-```text
-Shopify
-|-- thème et composition des pages
-|-- catalogue et variantes de produits
-|-- collections par type de produit et profil de chat
-|-- Markets, langues, régions et devises
-|-- panier, passage en caisse, livraison et retours
-`-- blog, guide, politiques et pages de contact
-```
+Shopify fournit le commerce hébergé, le catalogue, la localisation, le panier et le passage en caisse. Le thème de la vitrine organise les collections par type de produit et profil de chat, les contenus multilingues, les pages éditoriales et les informations clients.
 
-Le choix d'une plateforme hébergée évite d'ajouter un backend sur mesure et réduit la charge d'exploitation tout en conservant le parcours e-commerce standard de Shopify.
+L’assistant de la boutique s’appuie sur un service Python/FastAPI et des appels d’outils pour le conseil produit, la recherche dans le catalogue, les stocks, les politiques de la boutique et les liens de navigation. Un widget affiche les réponses via SSE. Un service SAV distinct gère les demandes d’assistance, les brouillons, les validations et les transmissions à un opérateur, avec MQTT pour relier le parcours de validation.
 
-## Choix principaux
+Le backend e-commerce apporte la recherche catalogue via FAISS, ainsi que les connaissances métier et les politiques de la boutique via Qdrant. Les prix et disponibilités proviennent d’outils dédiés de lecture Shopify. Le parcours éditorial prépare des brouillons à partir des produits ; des skills de contenu et de SEO décrivent les consignes propres aux tâches et les méthodes éditoriales.
 
-- Les visiteurs peuvent chercher un produit selon le profil de leur chat, en plus des catégories habituelles.
-- La sensibilité au bruit fait partie des informations utilisées pour orienter les propriétaires de chats sensibles.
-- Les contenus éditoriaux complètent le catalogue sans masquer la fonction commerciale du site.
-- Le guide d'adoption est proposé sous la forme d'un PDF de 18 pages, sans inscription.
-- La localisation repose sur trois langues et sur un sélecteur de pays ou de région avec des devises locales.
+Le pixel maison collecte les événements de la boutique, notamment les vues produit, ajouts au panier et étapes d’achat. La chaîne d’analyse stocke, agrège et attribue ces événements, puis transmet des KPI à l’Analytics Hub via MQTT. Les agents SAV et e-commerce émettent également des événements métier destinés à l’analyse.
 
-## Sécurité et exploitation
+## Choix et compromis
 
-Le passage en caisse et le traitement des paiements reposent sur le parcours géré par Shopify. Cette étude de cas ne revendique ni système de paiement personnalisé ni audit de sécurité indépendant.
+Shopify conserve le paiement et le commerce, tandis que les services sur mesure prennent en charge le conseil et l’assistance. Les outils de l’assistant portent sur les informations du site, pas sur le suivi de commandes ni les achats. Le SAV suit un parcours distinct, avec un mode de réponse configurable et une transmission à un opérateur ; il ne se confond pas avec l’assistant public.
 
-La boutique publique présente des pages consacrées à la livraison, aux retours, à la confidentialité, aux conditions d'utilisation, aux mentions légales, au contact et aux préférences relatives aux cookies. Leur présence est constatée sans en déduire une conformité juridique.
+## Résultats publics
 
-## Vérification publique
+La boutique publique est en ligne avec des contenus en anglais, français et allemand, des régions et devises localisées, des collections de produits, des contenus éditoriaux et un guide d’adoption téléchargeable.
 
-Éléments contrôlés sur la boutique publique le 14 août 2026 :
+## Périmètre et état actuel
 
-- les pages d'accueil, de présentation, de produit, de blog et du guide étaient accessibles ;
-- l'anglais, le français et l'allemand figuraient dans le sélecteur de langue ;
-- le sélecteur de pays ou de région proposait des devises locales ;
-- une fiche produit d'exemple présentait les variantes, la quantité, le panier et les informations relatives à la livraison, aux retours et au passage en caisse sécurisé ;
-- le guide gratuit était proposé sous la forme d'un PDF de 18 pages sans inscription.
+La boutique est en ligne. L’assistant IA et les intégrations SAV sont développés.
 
-Aucun achat de test n'a été effectué pendant cette vérification.
+## Ressources et liens
 
-## Preuves publiques
-
+- [Présentation sur le portfolio](https://musyg.com/fr/realisations/mikasshop/)
 - [Boutique publique](https://mikasshop.com)
-- [Présentation de la marque et logique de sélection](https://mikasshop.com/pages/about-us)
-- [Guide d'accueil d'un nouveau chat](https://mikasshop.com/blogs/news/new-cat-checklist-welcoming-guide)
-- [Exemple de fiche produit](https://mikasshop.com/products/quick-drying-pet-towel)
 
-## Limites
-
-- Les chiffres de vente, de conversion, d'audience et de chiffre d'affaires ne sont pas publics et ne sont pas revendiqués ici.
-- Les produits, les prix, les marchés et les contenus peuvent évoluer après la date de vérification.
-- Le backend e-commerce est celui de Shopify et non une application développée sur mesure.
+Le code des intégrations métier est privé.

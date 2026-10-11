@@ -60,6 +60,7 @@ Security research on web applications, smart contracts, and AI systems. Publishe
 - AI and agent security: indirect prompt injection, tool misuse, agentic attack paths, and adversarial evaluation
 
 **Proof of work**
+- [Indirect prompt injection in a refund agent](https://musyg.com/writing/indirect-injection-refund-agent/). Gray Swan case study: customer content redirects an agent’s tools, with a break scored 10/10.
 - [security-reviews](https://github.com/Musyg/security-reviews), a catalogue of reproducible reviews, one repo per vulnerability class. Each ships a vulnerable target, an exploit PoC, a remediated branch, and a report, all green under CI.
 - [erc4626-inflation-audit](https://github.com/Musyg/erc4626-inflation-audit). ERC-4626 first-deposit share inflation.
 - [eip712-signature-replay-audit](https://github.com/Musyg/eip712-signature-replay-audit). ECDSA signature malleability double-spend.
@@ -83,6 +84,7 @@ Python services and infrastructure work focused on asynchronous execution, fault
 
 - [production-agent-template](https://github.com/Musyg/production-agent-template). FastAPI agent service template: async lifespan, health and dashboard endpoints, circuit breaker registry, application-defined recovery hooks, Prometheus metrics, optional background loop, and scaffolding.
 - [agent-resilience](https://github.com/Musyg/agent-resilience). Circuit breaker, Redis-backed DLQ, offline MQTT buffer.
+- [Persistent Memory](https://musyg.com/work/persistent-memory/). Python library for versioned information, source tracking, typed retrieval and evidence withdrawal. Public alpha.
 - [async-api-client](https://github.com/Musyg/async-api-client). Resilient async REST client: rate limiting, retries, pagination.
 - [agent-self-healing](https://github.com/Musyg/agent-self-healing). Dependency health monitor with online/degraded/error states and auto-recovery.
 - [agent-metrics](https://github.com/Musyg/agent-metrics). Dependency-free counters, gauges, histograms with Prometheus text exposition.
@@ -106,10 +108,10 @@ Applied AI architecture, multi-agent systems, local-model orchestration, and aut
 
 ## How I work
 
-I document claims with reproducible examples, measure changes when useful, and verify behavior by running the system.
+I start with the problem, build the system and refine it through use and testing. The documentation explains my choices and gives others a way to explore the work.
 
 ## Web Development
 
-- [Inaricom case study](https://musyg.com/work/inaricom/): WordPress/WooCommerce website, React interfaces and custom backend integrations ([project URL](https://inaricom.com)).
-- [Mika's Shop case study](./case-studies/en/mikasshop.md): end-to-end Shopify store design and implementation ([live store](https://mikasshop.com)).
-- [Pedi-Sense case study](./case-studies/en/pedi-sense.md): end-to-end Shopify store design and implementation ([live store](https://pedi-sense.com)).
+- [Inaricom case study](./case-studies/en/inaricom.md): WordPress/WooCommerce, React interfaces, supplier integration, ecommerce and sales agents, quotes, invoicing and event analytics ([visit Inaricom](https://inaricom.com)).
+- [Mika's Shop case study](./case-studies/en/mikasshop.md): Shopify storefront, AI store assistant, customer-support agents, content workflows and event analytics ([view the store](https://mikasshop.com)).
+- [Pedi-Sense case study](./case-studies/en/pedi-sense.md): Shopify storefront, ecommerce and support agents, email workflows and event analytics ([view the store](https://pedi-sense.com)).
