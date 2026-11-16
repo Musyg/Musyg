@@ -84,7 +84,7 @@ Python services and infrastructure work focused on asynchronous execution, fault
 
 - [production-agent-template](https://github.com/Musyg/production-agent-template). FastAPI agent service template: async lifespan, health and dashboard endpoints, circuit breaker registry, application-defined recovery hooks, Prometheus metrics, optional background loop, and scaffolding.
 - [agent-resilience](https://github.com/Musyg/agent-resilience). Circuit breaker, Redis-backed DLQ, offline MQTT buffer.
-- [persistent-memory](https://github.com/Musyg/persistent-memory). Python library for versioned information, source tracking, typed retrieval and evidence withdrawal. Public alpha.
+- [persistent-memory](https://github.com/Musyg/persistent-memory). Persistent memory for AI agents: versioned information, source tracking and evidence withdrawal, as a Python library or an MCP server for any agent. On PyPI as `persistent-memory-mcp`; Linux, macOS and Windows. Public alpha.
 - [async-api-client](https://github.com/Musyg/async-api-client). Resilient async REST client: rate limiting, retries, pagination.
 - [agent-self-healing](https://github.com/Musyg/agent-self-healing). Dependency health monitor with online/degraded/error states and auto-recovery.
 - [agent-metrics](https://github.com/Musyg/agent-metrics). Dependency-free counters, gauges, histograms with Prometheus text exposition.
